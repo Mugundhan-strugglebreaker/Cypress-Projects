@@ -1,0 +1,37 @@
+Introduction:
+ 		Test Automation Tool
+		Can Test anything that runs on a web browser 
+		Write tests in Javascript and TypeScript 
+		Does not use Selenium
+		Open Source
+		cypress.io
+
+Cypress test runs on javascript and also any language that transpiles down to javascript like TypeScript 
+
+
+Using Cypress
+        Setup tests
+	Write tests
+      	Runs tests
+	Debug
+
+Features
+ 	Time Travel takes snapshots as your tests run.
+  	Debugging readable errors and stack traces.
+	Automatic Waiting automatically waits for commands and assertions before moving on
+	Consistent Results doesn’t use selenium or web drivers. Fast, consistent and reliable
+	Screenshot and videos get screenshots and videos
+	Cross browser testing locally or remote (CI CD)
+
+Cypress enables 
+  	End to End tests
+	Integration tests
+	Units Tests
+
+Assertions in Cypress
+       Implicit —> in-built assertions (Command in cypress like should() check for the excepted conditions without having to use any assert or except command separately.
+	Explicit —> Not in built or referred (have to use specific assertions commands like assert() and expect()
+
+Implicit —> should() & and()
+Explicit —> assert() & excepts()
+ 
