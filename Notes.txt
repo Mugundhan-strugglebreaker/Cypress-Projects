@@ -38,3 +38,9 @@ Explicit —> assert() & excepts()
 
  Implicit errors as well success notif was shown in electron 
  Explicit only displays if there is any error not passed cases
+
+ Page Object Model
+	A design principle
+	Keep the objects and methods separate from test scripts.
+	Efficient reusability
+	Easier, Efficient and Faster changes and Maintenance.
