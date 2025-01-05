@@ -53,6 +53,12 @@ App Actions
 
 YouTube link : https://www.youtube.com/watch?v=YWEqHQucvEs&list=PLhW3qG5bs-L9LTfxZ5LEBiM1WFfvX3dJo&index=15
 
+		example 
+		  like cy.window().then( ({app}) => {
+			app.loggedIn.active = true;
+		  })
+		  this step will skip the login or signup inorder to test the intermediate pages
+
 Group tests in cypress
  	Group all of the it block inside the describe block.
 
