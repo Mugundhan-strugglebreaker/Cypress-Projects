@@ -80,5 +80,7 @@ for running separate file in CLI we can use
 
 	npx cypress info  -> info about cypress and browser
 
+	npx cypress cache
+
 package.json 
    script configuration pretest , test, post test
