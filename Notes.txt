@@ -66,3 +66,19 @@ Group tests in cypress
 for running test in CLI
 	npx cypress run
 	it will capture screenshots if there any test case failed
+
+for running separate file in CLI we can use
+    npx cypress run -s cypress/e2e/file.cy.js -b electron
+
+    cypress run --config or -c pageLoadTimeout=10000, watchForFileChanges= false
+	or
+	cypress run -c '{ "watchForFileChanges" : false, "pageLoadTimeout" : 1000}'
+
+	npx cypress verify --> verfication
+
+	npx cypress version
+
+	npx cypress info  -> info about cypress and browser
+
+package.json 
+   script configuration pretest , test, post test
