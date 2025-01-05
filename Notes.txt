@@ -84,3 +84,11 @@ for running separate file in CLI we can use
 
 package.json 
    script configuration pretest , test, post test
+
+
+    ~1.2.3 will install 1.2.* but not 1.3.0
+	^1.2.3 will install 1.2.* as well as 1.*.* but not 2.0.0
+	
+	Do we need both package.json and package-lock.json ? No
+	Do we need package.json ? Yes
+	Does package-lock.json is enough ? No
