@@ -22,7 +22,7 @@ describe('All Login Test' , () => {
 
     it('Login Test 2', () => {
         loginPage.enterUsername('Admin')
-        loginPage.enterPassword('admin1234')
+        loginPage.enterPassword('admin123')
         loginPage.clickLogin()
         cy.get('.orangehrm-dashboard-widget-body > .oxd-grid-3 > :nth-child(1)').click()
     });

@@ -43,7 +43,6 @@ it('Assertion Demo', () => {
     */
 
     //assert
-
     assert.equal(4,'4','NOT EQUAL')
     assert.strictEqual('4','4', 'Not equlal')
 
@@ -53,6 +52,6 @@ it('Assertion Demo', () => {
       notEqual, strictEqual , isAbove , isBelow, exists , notExists , true
       false, isString, isNotString, isNumber, isNotNumber
 
-      */
+    */
 
 })
