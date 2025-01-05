@@ -62,3 +62,7 @@ YouTube link : https://www.youtube.com/watch?v=YWEqHQucvEs&list=PLhW3qG5bs-L9LTf
 Group tests in cypress
  	Group all of the it block inside the describe block.
 
+
+for running test in CLI
+	npx cypress run
+	it will capture screenshots if there any test case failed
