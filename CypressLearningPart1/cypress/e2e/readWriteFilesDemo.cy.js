@@ -26,3 +26,11 @@ it('Read file using ReadFile', () => {
         cy.log(data.email)
     })
 })
+
+it('Write File demo' , () =>{
+    cy.writeFile('sample.txt', 'Hello i am Mugundhan S \n')
+
+    cy.writeFile('sample.txt', 'I am Learning cypress' , { flag: 'a+'})
+
+    // without flag option it override the content that already present in that file for appending we have use the flag 'a+'
+})
