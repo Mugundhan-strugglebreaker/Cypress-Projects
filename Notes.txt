@@ -35,3 +35,6 @@ Assertions in Cypress
 Implicit —> should() & and()
 Explicit —> assert() & excepts()
  
+
+ Implicit errors as well success notif was shown in electron 
+ Explicit only displays if there is any error not passed cases
