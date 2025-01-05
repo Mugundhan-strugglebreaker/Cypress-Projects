@@ -15,5 +15,9 @@
   "description": "",
   "dependencies": {
     "cypress": "^13.17.0"
+  },
+  "devDependencies": {
+    "cypress-downloadfile": "^1.2.4",
+    "cypress-file-upload": "^5.0.8"
   }
 }
