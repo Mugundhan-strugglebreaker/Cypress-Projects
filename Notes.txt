@@ -44,3 +44,15 @@ Explicit —> assert() & excepts()
 	Keep the objects and methods separate from test scripts.
 	Efficient reusability
 	Easier, Efficient and Faster changes and Maintenance.
+
+App Actions
+	—> What are app actions
+			Shortcuts in app
+			provide users with quick ways to navigate to specific activities  in app
+			we can change the state of the app without any user interactions.
+
+YouTube link : https://www.youtube.com/watch?v=YWEqHQucvEs&list=PLhW3qG5bs-L9LTfxZ5LEBiM1WFfvX3dJo&index=15
+
+Group tests in cypress
+ 	Group all of the it block inside the describe block.
+
